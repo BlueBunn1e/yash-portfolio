@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300;400&display=swap');
+:root {
+    --primary-color:#FD6C6C;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Heebo', sans-serif;
+}
+
+.primary-link{
+    color: var(--primary-color);
+}
+
+/* Navigation */
+
+nav, footer{
+    background-color: var(--primary-color);
+    padding: 1rem 1rem 2rem 1rem;
+    border-radius: 0% 0% 2rem 2rem;;
+    color: white;
+}
+
+nav ul{
+    text-align: right;
+}
+
+.nav-heading{
+    margin-top: 1rem;
+    padding-left: 1rem;
+    font-size: 2.5vh;
+    font-weight: bolder;
+    font
+}
+
+
+.link-primary{
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: white;
+}
+.link-secondary{
+    border: 1px solid var(--primary-color); 
+    border-radius: 0.5rem;
+    color: var(--primary-color);
+}
+
+.list-non-bullet{
+    list-style: none;
+}
+
+
+
+.list-inline-item{
+    display: inline;
+    padding: 0rem 1rem;
+    
+}
+
+.link {
+    text-decoration: none;
+    color: inherit;
+    
+}
+
+.container{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    
+}
+.container-center{
+    max-width: 50rem;
+    margin: auto;
+}
+
+.link-active{
+    font-weight: bolder;
+    font-style: italic;
+}
+
+/* header */
+
+.hero-center{
+    max-width: 70vh;
+    
+    margin: auto;
+}
