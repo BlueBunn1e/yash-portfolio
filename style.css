@@ -1,92 +1,111 @@
-@import url('https://fonts.googleapis.com/css2?family=Archivo&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300;400&display=swap');
+
 :root {
-    --primary-color:#FD6C6C;
+    --primary-color: #FD6C6C;
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-body{
-    font-family: 'Heebo', sans-serif;
+body {
+    font-family: 'Montserrat', sans-serif;
 }
 
-.primary-link{
+.primary-link {
     color: var(--primary-color);
 }
 
 /* Navigation */
 
-nav, footer{
+nav{
+    display: block;
+}
+
+nav,
+footer {
     background-color: var(--primary-color);
     padding: 1rem 1rem 2rem 1rem;
-    border-radius: 0% 0% 2rem 2rem;;
+    border-radius: 0% 0% 1.5rem 1.5rem;
+    ;
     color: white;
 }
 
-nav ul{
+nav ul {
     text-align: right;
 }
 
-.nav-heading{
-    margin-top: 1rem;
+.container {
     padding-left: 1rem;
-    font-size: 2.5vh;
-    font-weight: bolder;
-    font
+    padding-right: 1rem;
+
+}
+
+.container-center {
+    max-width: 50rem;
+    margin: auto;
+}
+
+.nav-heading {
+    margin-top: 3%;
+    padding-left: 2rem;
+    font-size: 2vh;
+    font-weight: bold,inherit;
+    
 }
 
 
-.link-primary{
+.link-primary {
     background-color: var(--primary-color);
     border-radius: 0.5rem;
     color: white;
 }
-.link-secondary{
-    border: 1px solid var(--primary-color); 
+
+.link-secondary {
+    border: 1px solid var(--primary-color);
     border-radius: 0.5rem;
     color: var(--primary-color);
 }
 
-.list-non-bullet{
+.list-non-bullet {
     list-style: none;
 }
 
 
 
-.list-inline-item{
+.list-inline-item {
     display: inline;
     padding: 0rem 1rem;
-    
+
 }
 
 .link {
     text-decoration: none;
     color: inherit;
-    
+
 }
 
-.container{
-    padding-left: 1rem;
-    padding-right: 1rem;
-    
-}
-.container-center{
-    max-width: 50rem;
-    margin: auto;
-}
 
-.link-active{
+
+.link-active {
     font-weight: bolder;
     font-style: italic;
 }
 
 /* header */
+.hero{
+    padding: 1rem;
+}
 
-.hero-center{
-    max-width: 70vh;
-    
+.hero .hero-img {
+    max-width: 60vw;
+    display: block;
     margin: auto;
+}
+.hero .hero-heading{
+    
+
 }
