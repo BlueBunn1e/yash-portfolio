@@ -63,7 +63,7 @@ nav ul {
 
 .link-secondary {
     border: 1px solid var(--primary-color);
-    border-radius: 0.5rem;
+    border-radius: 1rem;
     color: var(--primary-color);
 }
 
@@ -139,8 +139,6 @@ section p{
 padding: 2rem 1rem 3rem 1rem;
 font-size: large;
 }
-
-
 
 .main-butt{
     background-color: var(--primary-color);
